@@ -8,7 +8,10 @@
 
     <persistence-unit name="jpastart" transaction-type="RESOURCE_LOCAL">
         <class>jpastart.reserve.model.User</class>
-
+        <class>jpastart.reserve.model.Room</class>
+        <class>jpastart.reserve.model.Hotel</class>
+	
+		<!-- 하이버네이트 엔티티 자동 추가 기능 비활성화 -->
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
         <properties>

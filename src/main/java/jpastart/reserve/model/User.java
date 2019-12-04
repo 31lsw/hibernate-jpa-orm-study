@@ -32,7 +32,8 @@ public class User {
 	@Column(name = "modifed_date")
 	private Date modifiedDate;
 	
-	protected User() {
+	// 엔티티 클래스의 제약 조건
+	protected User() { // 1. 엔티티 클래스는 기본 생성자를 제공해야 함 (접근 범위는 public이나 protected이어야 함)
 //		super();
 	}
 	
