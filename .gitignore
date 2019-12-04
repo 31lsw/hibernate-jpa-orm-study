@@ -10,6 +10,7 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+<<<<<<< HEAD
 
 
 # Compiled class file
@@ -38,3 +39,5 @@ hs_err_pid*
 
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/31lsw/hibernate-jpa-orm-study.git
